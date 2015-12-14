@@ -1,0 +1,23 @@
+{
+  "name": "yotsu-clover-counter",
+  "main": "index.html",
+  "window": {
+    "always-on-top":true,
+    "show": true,
+    "frame": true,
+    "toolbar": false,
+    "icon": "app.icns",
+    "max_width": 350,
+    "min_width": 350,
+    "max_height":170,
+    "min_height":170,
+    "position":"mouse"
+  },
+  "scripts": {
+    "start": "nw ."
+  },
+  "dependencies": {
+    "node-notifier": "^4.2.1",
+    "nw-notify": "0.2.0"
+  }
+}

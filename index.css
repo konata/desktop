@@ -1,0 +1,26 @@
+/*
+.box{
+  display: flex;
+  flex-direction:row|row-reverse|column|column-reverse;
+  flex-wrap: wrap|no-wrap|wrap-reverse;
+
+  flex-flow: row wrap; 
+
+  justfy-content:flex-start|flex-end|center|space-between|space-around;
+  align-items:flex-start|flex-end|center|baseline|stretch;
+
+  align-content;justfy-content and align-items;
+}
+
+.item{
+  order:0;
+  flex-grow:0;
+  flex-shrink:1;
+  flex-basis:100px;
+  flex:0 1 auto;
+
+  align-self:flex-end;
+}
+*/
+
+

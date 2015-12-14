@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>yotsu-clover-counter</title>
+    <style type="text/css">
+        *{
+          color:white;
+          font-size:14px;
+          text-align: center;
+        }
+        body {
+          font-family: Monofur;
+          display: flex;
+          flex-direction:column;
+          flex-wrap:wrap;
+          justify-content:space-around;
+          background-color: #34495e;
+        }
+
+        #event-name {
+          font-family: Monaco;
+          font-size:15px;
+          color:#a7cd45;
+        }
+
+        #label {
+          display: flex;
+          flex-direction: row;
+          flex-wrap:no-wrap;
+          justify-content:space-around;
+        }
+
+        #counter{
+          display: flex;
+          flex-direction:row;
+          flex-wrap:no-wrap;
+          justify-content:center;
+        }
+
+        #btns{
+          display: flex;
+          flex-direction:row;
+          flex-wrap:no-wrap;
+          justify-content:flex-end;
+          padding-right: 20px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="label">
+      <p id="event-label">
+      距离
+      </p>
+
+      <p id="event-name">
+       世界末日
+      </p>
+
+      <p id="remain-label">
+        还剩
+      </p>
+    </div>
+
+    <div id="counter">
+      <img id="h1" src="img/num1_small.png">
+      <img id="h2" src="img/num1_small.png">
+      <img class="sep" src="img/numdot_small.png">
+      <img id="m1" src="img/num1_small.png">
+      <img id="m2" src="img/num1_small.png">
+      <img class="sep" src="img/numdot_small.png">
+      <img id="s1" src="img/num1_small.png">
+      <img id="s2" src="img/num1_small.png">
+    </div>
+
+
+    <div id="btns">
+      <img id="play" src="img/play.png">
+      <img id="more" src="img/settings.png">
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
